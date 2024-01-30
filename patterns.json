@@ -1,0 +1,134 @@
+{
+  
+  "patterns": [
+    {
+      "patterns": ["weather", "forecast", "weather report", "weather update", "current weather"],
+      "responses": ["Sure, I can help you with the weather forecast.", "Checking the weather for you."]
+    },
+    {
+      "patterns": ["temperature", "temp", "current temperature"],
+      "responses": ["The temperature information is available.", "I can provide you with the current temperature."]
+    },
+    {
+      "patterns": ["traffic", "road condition", "traffic update"],
+      "responses": ["I can provide information about the traffic conditions.", "Checking the road conditions."]
+    },
+    {
+      "patterns": ["time", "current time"],
+      "responses": ["I can tell you the current time.", "Checking the clock for you."]
+    },
+    {
+      "patterns": ["navigate", "directions"],
+      "responses": ["Sure, let me help you with navigation.", "Providing directions for your journey."]
+    },
+    {
+      "patterns": ["music", "play music","music playlist"],
+      "responses": ["I can play your favorite music for you.", "Sure, let me find some music for you."]
+    },
+    {
+      "patterns": ["call", "make a call"],
+      "responses": ["Sure, who would you like to call?", "Initiating a call for you."]
+    },
+    {
+      "patterns": ["send message", "text"],
+      "responses": ["Sure, whom would you like to send a message?", "Composing a message for you."]
+    },{
+      "patterns": ["date", "current date"],
+      "responses": ["Sure, I can provide you with the current date.", "Checking the current date for you."]
+    },
+    {
+      "patterns": ["day", "current day"],
+      "responses": ["I can tell you the current day.", "Checking the day for you."]
+    },
+    {
+      "patterns": ["month", "current month"],
+      "responses": ["I can provide information about the current month.", "Checking the current month for you."]
+    },
+    {
+      "patterns": ["year", "current year"],
+      "responses": ["Sure, I can tell you the current year.", "Checking the current year for you."]
+    },
+    {
+      "patterns": ["time and date", "current time and date"],
+      "responses": ["Certainly, I can provide you with the current time and date.", "Checking the current time and date for you."]
+    },
+    {
+      "patterns": ["today's date", "today"],
+      "responses": ["Today's date is [insert current date].", "The current date is [insert current date]."]
+    },
+    {
+      "patterns": ["tomorrow's date", "tomorrow"],
+      "responses": ["Tomorrow's date will be [insert tomorrow's date].", "The date tomorrow will be [insert tomorrow's date]."]
+    },
+    {
+      "patterns": ["ac on", "turn on ac", "air conditioning on", "activate air conditioning", "start ac"],
+      "responses": ["Turning on the air conditioning.", "AC is being turned on."]
+    },
+    {
+      "patterns": ["ac off", "turn off ac", "air conditioning off", "deactivate air conditioning", "stop ac"],
+      "responses": ["Turning off the air conditioning.", "AC is being turned off."]
+    },
+    {
+      "patterns": ["open window", "window down", "lower window", "window open"],
+      "responses": ["Opening the window.", "Window is being opened."]
+    },
+    {
+      "patterns": ["close window", "window up", "raise window", "window close"],
+      "responses": ["Closing the window.", "Window is being closed."]
+    },
+    {
+      "patterns": ["open sunroof", "sunroof down", "sunroof open", "slide open sunroof"],
+      "responses": ["Opening the sunroof.", "Sunroof is being opened."]
+    },
+    {
+      "patterns": ["close sunroof", "sunroof up", "sunroof close", "slide close sunroof"],
+      "responses": ["Closing the sunroof.", "Sunroof is being closed."]
+    },
+    {
+      "patterns": ["lock doors", "doors lock", "secure doors", "lock the vehicle"],
+      "responses": ["Locking the doors.", "Doors are being locked."]
+    },
+    {
+      "patterns": ["unlock doors", "doors unlock", "open doors", "unlock the vehicle"],
+      "responses": ["Unlocking the doors.", "Doors are being unlocked."]
+    },
+    {
+      "patterns": ["music", "play music", "music playlist"],
+      "responses": ["I can play your favorite music for you.", "Sure, let me find some music for you."]
+    },
+    {
+      "patterns": ["play song", "play track", "song name", "track name"],
+      "responses": ["Playing the requested song.", "Let me find that track for you."]
+    },
+    {
+      "patterns": ["list music", "list songs", "show music list", "show song list"],
+      "responses": ["Here are some music titles you might enjoy.", "Listing available songs."]
+    },
+    {
+      "patterns": ["random song", "shuffle music", "play random music", "surprise me with a song"],
+      "responses": ["Playing a random song for you.", "Let's shuffle your music playlist."]
+    },
+    
+    {
+      "patterns": ["FAQ", "frequently asked"],
+      "responses": [
+        "How can I check the weather?",
+        "Tell me about the traffic conditions.",
+        "Can you provide directions for navigation?",
+        "What's the current temperature?",
+        "How do I play music with the assistant?",
+        "Can I make a call using voice commands?",
+        "How can I send a text message?"
+      ]
+    }
+  ],
+  "greetings": [
+    {
+      "patterns": ["hello", "hi", "hey"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! How may I help you?"]
+    }
+  ],
+  "contacts": {
+    "Person 1" : "+91"
+  }
+}

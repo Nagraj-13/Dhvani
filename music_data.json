@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Lovely",
+        "artist": "Billie Ellish",
+        "path": "song1.mp3"
+    },
+    {
+        "title": "Save your tears",
+        "artist": "The Weeknd",
+        "path": "song2.mp3"
+    },
+    {
+        "title": "People",
+        "artist": "Libianca",
+        "path": "song3.mp3"
+    },
+    {
+        "title": "Peaches",
+        "artist": "Justin Bieber",
+        "path": "song4.mp3"
+    }
+   
+]

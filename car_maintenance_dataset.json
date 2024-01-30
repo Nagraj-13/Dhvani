@@ -1,0 +1,30 @@
+{
+    "car_details": [
+      {
+        "keywords": ["oil", "oil condition", "oil change"],
+        "response": ["Oil condition is good.", "It's time for an oil change.", "The oil level is optimal."]
+      },
+      {
+        "keywords": ["air filter", "replace air filter", "condition of air filter", "filter"],
+        "response": ["The air filter is in good condition.", "Consider replacing the air filter soon.", "Air filter replacement is recommended."]
+      },
+      {
+        "keywords": ["tire pressure", "car tire pressure", "pressure in my tire"],
+        "response": ["Tire pressure is within the recommended range.", "Check the tire pressure for optimal performance.", "It's essential to maintain proper tire pressure."]
+      },
+      {
+        "keywords": ["fuel", "fuel efficiency", "gas mileage"],
+        "response": ["Fuel efficiency is good.", "Consider adopting fuel-efficient driving habits for better mileage.", "It's advisable to use high-quality fuel."]
+      },
+      {
+        "keywords": ["strange noise", "weird sound", "diagnostic issue"],
+        "response": ["The vehicle seems to be in good condition.", "Strange noises may require professional inspection. It's recommended to visit a mechanic.", "A diagnostic check is advisable."]
+      }
+    ],
+    "fallback_responses": [
+      "I'm sorry, I couldn't understand your question. Can you please rephrase or ask another question?",
+      "I'm not sure about that. Could you provide more details or ask a different question?",
+      "I may not have the information you're looking for. Let's try another question related to car details."
+    ]
+  }
+  

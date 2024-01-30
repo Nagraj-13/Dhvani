@@ -1,0 +1,239 @@
+{
+  "cities": [
+    {
+      "name": "bangalore",
+      "roads": [
+        {
+          "road_id": 1,
+          "name": "mg road",
+          "neighboring_roads": [
+            {
+              "road_id": 2,
+              "name": "residency road",
+              "navigation": [
+                {"instruction": "Go straight for 500 meters", "poi": "Starbucks Coffee"},
+                {"instruction": "Take a right turn", "poi": "Residency Park"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Scenic route through downtown",
+                  "navigation": [
+                    {"instruction": "Go straight for 300 meters", "poi": "Museum of History"},
+                    {"instruction": "Turn left and continue for 200 meters", "poi": "City Library"}
+                  ]
+                }
+              ]
+            },
+            {
+              "road_id": 3,
+              "name": "brigade road",
+              "navigation": [
+                {"instruction": "Go straight for 300 meters", "poi": "Brigade Mall"},
+                {"instruction": "Take a left turn", "poi": "Brigade Lake"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Fastest route avoiding traffic",
+                  "navigation": [
+                    {"instruction": "Turn right and continue for 400 meters", "poi": "Tech Park"},
+                    {"instruction": "Turn left towards Highway 4", "poi": "Highway 4 Overpass"}
+                  ]
+                }
+              ]
+            },
+            {
+              "road_id": 4,
+              "name": "indiranagar 100 feet road",
+              "navigation": [
+                {"instruction": "Go straight and take a right turn", "poi": "Indiranagar Metro Station"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Route through residential area",
+                  "navigation": [
+                    {"instruction": "Turn left and continue for 200 meters", "poi": "Local Park"},
+                    {"instruction": "Take a right turn and follow for 500 meters", "poi": "Community Center"}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "road_id": 2,
+          "name": "residency road",
+          "neighboring_roads": [
+            {
+              "road_id": 1,
+              "name": "mg road",
+              "navigation": [
+                {"instruction": "Go straight for 400 meters", "poi": "Residency Plaza"},
+                {"instruction": "Take a left turn", "poi": "MG Road Metro Station"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Route through commercial area",
+                  "navigation": [
+                    {"instruction": "Turn right and follow for 300 meters", "poi": "City Theater"},
+                    {"instruction": "Turn left and continue for 200 meters", "poi": "Central Park"}
+                  ]
+                }
+              ]
+            },
+            {
+              "road_id": 3,
+              "name": "brigade road",
+              "navigation": [
+                {"instruction": "Go straight for 500 meters", "poi": "Residency Tech Park"},
+                {"instruction": "Take a right turn", "poi": "Brigade Junction"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Shortest route",
+                  "navigation": [
+                    {"instruction": "Take a left turn and continue for 200 meters", "poi": "Local Market"},
+                    {"instruction": "Turn right and follow for 400 meters", "poi": "Community Garden"}
+                  ]
+                }
+              ]
+            },
+            {
+              "road_id": 4,
+              "name": "indiranagar 100 feet road",
+              "navigation": [
+                {"instruction": "Go straight and take a left turn", "poi": "Fashion Street"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Route with less traffic",
+                  "navigation": [
+                    {"instruction": "Turn right and continue for 600 meters", "poi": "Indiranagar Park"},
+                    {"instruction": "Take a left turn and follow for 300 meters", "poi": "Indiranagar Shopping Complex"}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "road_id": 3,
+          "name": "brigade road",
+          "neighboring_roads": [
+            {
+              "road_id": 1,
+              "name": "mg road",
+              "navigation": [
+                {"instruction": "Go straight for 300 meters", "poi": "Brigade Mall"},
+                {"instruction": "Take a right turn", "poi": "MG Road Metro Station"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Scenic route via park",
+                  "navigation": [
+                    {"instruction": "Turn left and follow for 200 meters", "poi": "Green Park"},
+                    {"instruction": "Continue straight for 300 meters", "poi": "Art Gallery"},
+                    {"instruction": "Turn right towards MG Road", "poi": "Historical Monument"}
+                  ]
+                }
+              ]
+            },
+            {
+              "road_id": 2,
+              "name": "residency road",
+              "navigation": [
+                {"instruction": "Go straight for 500 meters", "poi": "Brigade Towers"},
+                {"instruction": "Take a left turn", "poi": "Residency Park"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Shorter but busier route",
+                  "navigation": [
+                    {"instruction": "Take a right turn and continue for 300 meters", "poi": "Local Bazaar"},
+                    {"instruction": "Turn left and follow for 400 meters", "poi": "City Library"}
+                  ]
+                }
+              ]
+            },
+            {
+              "road_id": 4,
+              "name": "indiranagar 100 feet road",
+              "navigation": [
+                {"instruction": "Go straight and take a right turn", "poi": "Brigade Plaza"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Quieter residential route",
+                  "navigation": [
+                    {"instruction": "Turn left and continue for 700 meters", "poi": "Rose Garden"},
+                    {"instruction": "Take a right turn and follow for 500 meters", "poi": "Indiranagar School"}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+
+
+        {
+          "road_id": 4,
+          "name": "indiranagar 100 feet road",
+          "neighboring_roads": [
+            {
+              "road_id": 1,
+              "name": "mg road",
+              "navigation": [
+                {"instruction": "Go straight for 600 meters", "poi": "Indiranagar Shopping Complex"},
+                {"instruction": "Take a left turn", "poi": "MG Road Metro Station"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Route through the commercial district",
+                  "navigation": [
+                    {"instruction": "Turn right and follow for 500 meters", "poi": "Tech Park"},
+                    {"instruction": "Continue straight for 400 meters", "poi": "Business Hub"},
+                    {"instruction": "Turn left towards MG Road", "poi": "City Mall"}
+                  ]
+                }
+              ]
+            },
+            {
+              "road_id": 2,
+              "name": "residency road",
+              "navigation": [
+                {"instruction": "Go straight for 800 meters", "poi": "Indiranagar Stage 2"},
+                {"instruction": "Take a right turn", "poi": "Residency Park"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Route via the lake",
+                  "navigation": [
+                    {"instruction": "Take a left turn and continue for 600 meters", "poi": "Lake View"},
+                    {"instruction": "Turn right and follow for 700 meters", "poi": "Botanical Garden"}
+                  ]
+                }
+              ]
+            },
+            {
+              "road_id": 3,
+              "name": "brigade road",
+              "navigation": [
+                {"instruction": "Go straight and take a left turn", "poi": "Indiranagar Plaza"}
+              ],
+              "alternative_routes": [
+                {
+                  "description": "Scenic route via cultural district",
+                  "navigation": [
+                    {"instruction": "Turn right and continue for 800 meters", "poi": "Cultural Center"},
+                    {"instruction": "Take a left turn and follow for 600 meters", "poi": "Art Museum"}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+        
+                
+      ]
+    }
+  ]
+}
